@@ -49,8 +49,7 @@ def can_get_size_of_the_database
 end
 
 def can_find_the_first_item_from_the_database_using_id
-  movie = Movie.first
-  binding.pry
+  movie = Movie.find_by(title)
 
 end
 
